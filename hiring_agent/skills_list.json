@@ -1,0 +1,22 @@
+{
+  "skills": [
+    "python", "java", "c++", "c", "javascript", "typescript", "sql", "r",
+    "html", "css", "react", "node.js", "django", "flask", "fastapi",
+    "machine learning", "deep learning", "natural language processing", "nlp",
+    "computer vision", "data analysis", "data visualization", "data engineering",
+    "statistics", "mathematics", "linear algebra", "probability",
+    "pandas", "numpy", "scikit-learn", "tensorflow", "pytorch", "keras",
+    "xgboost", "lightgbm", "opencv", "nltk", "spacy", "transformers",
+    "huggingface", "sentence-transformers", "shap", "mlflow",
+    "power bi", "tableau", "excel", "matplotlib", "seaborn", "plotly",
+    "aws", "azure", "gcp", "docker", "kubernetes", "git", "github",
+    "linux", "rest api", "etl", "airflow", "spark", "hadoop", "kafka",
+    "mongodb", "postgresql", "mysql", "sqlite", "data structures",
+    "algorithms", "object oriented programming", "agile", "scrum",
+    "communication", "leadership", "teamwork", "problem solving",
+    "project management", "time management", "a/b testing",
+    "feature engineering", "model deployment", "data cleaning",
+    "exploratory data analysis", "neural networks", "reinforcement learning",
+    "generative ai", "llm", "prompt engineering", "streamlit", "api development"
+  ]
+}
