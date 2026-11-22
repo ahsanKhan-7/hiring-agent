@@ -1,0 +1,28 @@
+[project]
+name = "hiring-agent"
+version = "0.1.0"
+description = "LangGraph screening workflow with human-in-the-loop review, an MCP tool server and a FastAPI service"
+requires-python = ">=3.10"
+dependencies = [
+    "langgraph>=1.0",
+    "langgraph-checkpoint-sqlite>=3.0",
+    "mcp>=2.0,<3",
+    "fastapi>=0.110",
+    "uvicorn>=0.30",
+    "scikit-learn>=1.5",
+    "pydantic>=2.6",
+]
+
+[project.optional-dependencies]
+llm = ["google-genai>=1.0"]
+dev = ["pytest>=8.0", "pytest-asyncio>=0.23", "httpx>=0.27"]
+
+[tool.setuptools]
+packages = ["hiring_agent"]
+
+[tool.setuptools.package-data]
+hiring_agent = ["skills_list.json"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
