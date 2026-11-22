@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "hiring-tools": {
+      "command": "python",
+      "args": ["-m", "hiring_agent.mcp_server"],
+      "cwd": "/absolute/path/to/hiring-agent"
+    }
+  }
+}
